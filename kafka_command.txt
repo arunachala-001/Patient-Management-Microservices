@@ -1,0 +1,12 @@
+//Producer command
+
+docker exec -it kafka kafka-topics.sh --bootstrap-server localhost:9094 --create --topic test-topic --partitions 1 --replication-factor 1
+
+
+
+//Consumer 
+
+docker exec -it kafka kafka-console-consumer.sh --bootstrap-server localhost:9094 --topic test-topic --from-beginning
+
+
+
