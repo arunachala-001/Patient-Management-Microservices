@@ -57,14 +57,13 @@ A **production-ready** Java-based Patient Management System built using **Spring
 
 ```bash
 # Build Docker images
+...
 docker build -t auth-service:latest .
 docker build -t patient-service:latest .
 docker build -t analytics-service:latest .
 docker build -t billing-service:latest .
-...
-
+```
 ---
-
 ## ☁️ AWS Deployment with LocalStack
 The infrastructure-service generates CloudFormation YAML templates
 
@@ -91,6 +90,7 @@ Cloud-ready via LocalStack
 
 ---
 
-📬 Contact
-Created by Arunachalam S
-📧 LinkedIn - www.linkedin.com/in/arunachalam-s-javadeveloper
+## 📬 Contact
+- Created by **Arunachalam S**
+
+- 📧 LinkedIn - [www.linkedin.com/in/arunachalam-s-javadeveloper]
